@@ -1,0 +1,30 @@
+{
+  "manifest_version": 2,
+  "name": "WikiQuickLang",
+  "version": "0.1",
+
+  "description": "Shows flags for quick language switching on wikipedia",
+
+  "icons": {
+    "48": "icons/wql-48.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.wikipedia.org/*"],
+      "js": ["quickLang.js"]
+    }
+  ],
+
+  "options_ui": {
+      "page": "options.html"
+  },
+
+  "permissions": ["storage"],
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "addon@example.com"
+    }
+  }
+}
