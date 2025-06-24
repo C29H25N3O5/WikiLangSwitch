@@ -1,0 +1,11 @@
+{
+  "extensionName": { "message": "Wikipedia Linguae Commutator" },
+  "extensionDescription": { "message": "Celeriter inter varias editiones Wikipediae in diversis linguis commuta." },
+  "languageInstruction": { "message": "Codices WP (pars ante .wikipedia.org) inseras, commatibus separatos. Exempli gratia: en pro Anglica, es pro Hispanica." },
+  "settingsDisplayMode": { "message": "Quomodo linguae ostendantur:" },
+  "displayNative": { "message": "Nomen vernaculum" },
+  "displayCode": { "message": "Codex WP (MAIUSCULIS)" },
+  "displayCustom": { "message": "Titulus proprius" },
+  "customLabelNote": { "message": "Pro singulis linguis titulum proprium addere potes (e.g. 🇮🇹, 中文, ENG). Si vacuum, codex WP adhibebitur." },
+  "saveOptions": { "message": "Optiones serva" }
+}

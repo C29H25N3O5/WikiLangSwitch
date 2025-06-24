@@ -1,0 +1,11 @@
+{
+  "extensionName": { "message": "Μεταβολὴ Γλωσσῶν Βικιπαιδείας" },
+  "extensionDescription": { "message": "Ταχὺ μεταβάλλειν μεταξὺ τῶν διαλέκτων ἐν Βικιπαιδείᾳ." },
+  "languageInstruction": { "message": "Γράψον τοὺς κώδας WP (τὸ μέρος πρό του .wikipedia.org), κεχωρισμένους διὰ κόμματος· οἷον: en ἀντὶ τοῦ Ἀγγλικοῦ, es ἀντὶ τοῦ Ἰσπανικοῦ." },
+  "settingsDisplayMode": { "message": "Ἐμφάνισον ἑκάστην γλῶσσαν οὕτως:" },
+  "displayNative": { "message": "Ὄνομα φυσικόν" },
+  "displayCode": { "message": "Κώδιξ WP (Ἐν κεφαλαίοις)" },
+  "displayCustom": { "message": "Ἑτικέττα ἰδία" },
+  "customLabelNote": { "message": "Δύνασαι γράφειν ἰδίαν ἑτικέτταν ἐπὶ πάσης γλώσσης (ὡς 🇬🇷, 中文, ENG)· ἐὰν λείπῃ, ὁ WP κώδιξ χρῆται." },
+  "saveOptions": { "message": "Σῶσον τὰς ἐπιλογάς" }
+}

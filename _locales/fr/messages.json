@@ -1,0 +1,11 @@
+{
+  "extensionName": { "message": "Changeur de Langue Wikipédia" },
+  "extensionDescription": { "message": "Basculez rapidement entre différentes versions linguistiques de Wikipédia." },
+  "languageInstruction": { "message": "Entrez les codes WP (la partie avant .wikipedia.org dans l'URL) pour les langues que vous souhaitez utiliser, séparés par des virgules. Par exemple : en pour l'anglais, es pour l'espagnol." },
+  "settingsDisplayMode": { "message": "Afficher chaque langue comme :" },
+  "displayNative": { "message": "Nom natif" },
+  "displayCode": { "message": "Code WP (MAJUSCULES)" },
+  "displayCustom": { "message": "Étiquette personnalisée" },
+  "customLabelNote": { "message": "Vous pouvez attribuer une étiquette personnalisée pour chaque langue (par ex., 🇫🇷, 中文, ENG). Si laissé vide, le code WP sera utilisé à la place." },
+  "saveOptions": { "message": "Enregistrer les Options" }
+}

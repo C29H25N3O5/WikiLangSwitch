@@ -1,0 +1,11 @@
+{
+  "extensionName": { "message": "ウィキペディア言語スイッチャー" },
+  "extensionDescription": { "message": "ウィキペディアの異なる言語バージョン間を素早く切り替えます。" },
+  "languageInstruction": { "message": "使用したい言語のWPコード（URLの.wikipedia.orgの前の部分）をカンマで区切って入力してください。例：英語はen、スペイン語はes。" },
+  "settingsDisplayMode": { "message": "各言語の表示方法：" },
+  "displayNative": { "message": "ネイティブ名" },
+  "displayCode": { "message": "WPコード（大文字）" },
+  "displayCustom": { "message": "カスタムラベル" },
+  "customLabelNote": { "message": "各言語にカスタムラベルを割り当てることができます（例：🇯🇵, 中文, ENG）。空白のままにすると、代わりにWPコードが使用されます。" },
+  "saveOptions": { "message": "オプションを保存" }
+}

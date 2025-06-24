@@ -1,0 +1,11 @@
+{
+  "extensionName": { "message": "Maida Harshe Wikipedia" },
+  "extensionDescription": { "message": "Canja shafin Wikipedia zuwa wani harshe da sauri." },
+  "languageInstruction": { "message": "Shigar da lambobin WP (kafin .wikipedia.org) da kake son amfani da su, raba su da alamar comma. Misali: en na nufin Turanci, es na nufin Sifaniyanci." },
+  "settingsDisplayMode": { "message": "Yadda zaka nuna kowanne harshe:" },
+  "displayNative": { "message": "Sunan harshen a asali" },
+  "displayCode": { "message": "Lambar WP (BABBA)" },
+  "displayCustom": { "message": "Sunan da ka zaba" },
+  "customLabelNote": { "message": "Za ka iya saka sunan ka don kowanne harshe (misali: 🇳🇬, 中文, ENG). Idan ba ka saka komai ba, WP code za a nuna." },
+  "saveOptions": { "message": "Ajiye zaɓin" }
+}

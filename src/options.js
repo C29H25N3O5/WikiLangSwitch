@@ -23,7 +23,7 @@ function saveOptions(e) {
 
 function generateCustomLabelInputs(languageCodes, savedLabels = {}) {
     const container = document.querySelector("#customLabelInputs");
-    container.innerHTML = `<p><strong>Custom Labels:</strong> Enter a custom label for each language code (e.g., 🇬🇧, 中文, ENG). Optional.</p>`;
+    container.innerHTML = `<p data-i18n="customLabelNote">${browser.i18n.getMessage("customLabelNote")}</p>`;
     languageCodes.forEach(code => {
         const row = document.createElement("div");
         row.style.display = "grid";
@@ -76,6 +76,15 @@ function restoreOptions() {
 
     let getting = browser.storage.sync.get(["selectedLanguages", "displayMode", "customLabels"]);
     getting.then(setCurrentChoice, onError);
+
+    document.querySelectorAll("[data-i18n]").forEach(el => {
+        const key = el.dataset.i18n;
+        el.textContent = browser.i18n.getMessage(key);
+    });
+    document.querySelectorAll("[data-i18n-value]").forEach(el => {
+        const key = el.dataset.i18nValue;
+        el.value = browser.i18n.getMessage(key);
+    });
 }
 
 function handleDisplayModeChange() {

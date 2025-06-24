@@ -1,0 +1,29 @@
+{
+	"extensionName": {
+		"message": "Wikipedia Language Switcher"
+	},
+	"extensionDescription": {
+		"message": "Quickly switch between different Wikipedia language versions."
+	},
+	"languageInstruction": {
+		"message": "Enter the WP codes (the part before .wikipedia.org in the URL) for the languages you want to use, separated by commas. For example: en for English, es for Spanish."
+	},
+	"settingsDisplayMode": {
+		"message": "Display each language as:"
+	},
+	"displayNative": {
+		"message": "Native name"
+	},
+	"displayCode": {
+		"message": "WP code (ALL CAPS)"
+	},
+	"displayCustom": {
+		"message": "Custom label"
+	},
+	"customLabelNote": {
+		"message": "You can assign a custom label for each language (e.g., 🇺🇸, 中文, ENG). If left blank, the WP code will be used instead."
+	},
+	"saveOptions": {
+		"message": "Save Options"
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "extensionName": { "message": "وکیپیڈیا زبان سوئچر" },
+  "extensionDescription": { "message": "وکیپیڈیا کے مختلف زبان کے ورژنز کے درمیان جلدی سے سوئچ کریں۔" },
+  "languageInstruction": { "message": "آپ جن زبانوں کو استعمال کرنا چاہتے ہیں، ان کے لیے WP کوڈز (URL میں .wikipedia.org سے پہلے والا حصہ) داخل کریں، کوما سے الگ کریں۔ مثال کے طور پر: انگریزی کے لیے en، ہسپانوی کے لیے es۔" },
+  "settingsDisplayMode": { "message": "ہر زبان کو اس طرح دکھائیں:" },
+  "displayNative": { "message": "مقامی نام" },
+  "displayCode": { "message": "WP کوڈ (بڑے حروف)" },
+  "displayCustom": { "message": "حسب ضرورت لیبل" },
+  "customLabelNote": { "message": "آپ ہر زبان کے لیے ایک حسب ضرورت لیبل تفویض کر سکتے ہیں (مثلاً، 🇵🇰, 中文, ENG)۔ اگر خالی چھوڑ دیا جائے تو، اس کی جگہ WP کوڈ استعمال کیا جائے گا۔" },
+  "saveOptions": { "message": "آپشنز محفوظ کریں" }
+}

@@ -1,0 +1,11 @@
+{
+  "extensionName": { "message": "維基百科語言切換器" },
+  "extensionDescription": { "message": "快速切換不同維基百科語言版本。" },
+  "languageInstruction": { "message": "輸入您想要使用的WP代碼（URL 中 .wikipedia.org 之前的部分），用半形逗號分隔。例如：en 表示英語，es 表示西班牙語。" },
+  "settingsDisplayMode": { "message": "將每種語言顯示為：" },
+  "displayNative": { "message": "本地名稱" },
+  "displayCode": { "message": "WP代碼（全大寫）" },
+  "displayCustom": { "message": "自定義標籤" },
+  "customLabelNote": { "message": "您可以為每種語言分配自定義標籤（例如： 🏴, 中文, ENG）。如果留空，將使用WP代碼代替。" },
+  "saveOptions": { "message": "儲存選項" }
+}

@@ -1,0 +1,11 @@
+{
+  "extensionName": { "message": "Trình Chuyển Đổi Ngôn Ngữ Wikipedia" },
+  "extensionDescription": { "message": "Chuyển đổi nhanh chóng giữa các phiên bản ngôn ngữ Wikipedia khác nhau." },
+  "languageInstruction": { "message": "Nhập mã WP (phần trước .wikipedia.org trong URL) cho các ngôn ngữ bạn muốn sử dụng, được phân tách bằng dấu phẩy. Ví dụ: en cho tiếng Anh, es cho tiếng Tây Ban Nha." },
+  "settingsDisplayMode": { "message": "Hiển thị mỗi ngôn ngữ dưới dạng:" },
+  "displayNative": { "message": "Tên bản địa" },
+  "displayCode": { "message": "Mã WP (CHỮ HOA)" },
+  "displayCustom": { "message": "Nhãn tùy chỉnh" },
+  "customLabelNote": { "message": "Bạn có thể gán nhãn tùy chỉnh cho mỗi ngôn ngữ (ví dụ: 🇻🇳, 中文, ENG). Nếu để trống, mã WP sẽ được sử dụng thay thế." },
+  "saveOptions": { "message": "Lưu Tùy Chọn" }
+}

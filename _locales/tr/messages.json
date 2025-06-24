@@ -1,0 +1,11 @@
+{
+  "extensionName": { "message": "Vikipedi Dil Değiştirici" },
+  "extensionDescription": { "message": "Farklı Vikipedi dil sürümleri arasında hızlıca geçiş yapın." },
+  "languageInstruction": { "message": "Kullanmak istediğiniz diller için WP kodlarını (URL'de .wikipedia.org'dan önceki kısım) virgülle ayırarak girin. Örneğin: İngilizce için en, İspanyolca için es." },
+  "settingsDisplayMode": { "message": "Her dili şu şekilde göster:" },
+  "displayNative": { "message": "Yerel adı" },
+  "displayCode": { "message": "WP kodu (BÜYÜK HARFLERLE)" },
+  "displayCustom": { "message": "Özel etiket" },
+  "customLabelNote": { "message": "Her dil için özel bir etiket atayabilirsiniz (örn., 🇹🇷, 中文, ENG). Boş bırakılırsa, bunun yerine WP kodu kullanılacaktır." },
+  "saveOptions": { "message": "Seçenekleri Kaydet" }
+}

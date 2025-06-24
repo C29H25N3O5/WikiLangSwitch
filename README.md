@@ -1,7 +1,10 @@
-# WikipediaQuickLanguages
-A Firefox Addon for quickly switching between a selection of languages on Wikipedia.
+# Wikipedia Language Switch
 
-Note: not available on https://addons.mozilla.org yet.
+This Firefox add-on allows you to easily switch languages on the current Wikipedia article by inserting hyperlinks next to the language selection button. This feature is perfect for those who read Wikipedia articles in multiple languages.
+
+To add a language, simply go to the Extension Preferences panel and enter the WP code of the corresponding Wikipedia(s), separated by commas.
+
+\*Based on WikipediaQuickLanguages by @LeonGr.
 
 ## Examples
 

@@ -1,0 +1,11 @@
+{
+  "extensionName": { "message": "Pengalih Bahasa Wikipedia" },
+  "extensionDescription": { "message": "Beralih dengan cepat antara berbagai versi bahasa Wikipedia." },
+  "languageInstruction": { "message": "Masukkan kode WP (bagian sebelum .wikipedia.org di URL) untuk bahasa yang ingin Anda gunakan, dipisahkan dengan koma. Misalnya: en untuk bahasa Inggris, es untuk bahasa Spanyol." },
+  "settingsDisplayMode": { "message": "Tampilkan setiap bahasa sebagai:" },
+  "displayNative": { "message": "Nama asli" },
+  "displayCode": { "message": "Kode WP (HURUF BESAR)" },
+  "displayCustom": { "message": "Label kustom" },
+  "customLabelNote": { "message": "Anda dapat menetapkan label kustom untuk setiap bahasa (misalnya, 🇮🇩, 中文, ENG). Jika dibiarkan kosong, kode WP akan digunakan sebagai gantinya." },
+  "saveOptions": { "message": "Simpan Opsi" }
+}

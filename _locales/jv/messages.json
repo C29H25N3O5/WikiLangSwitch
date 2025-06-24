@@ -1,0 +1,11 @@
+{
+  "extensionName": { "message": "Pamilih Basa Wikipedia" },
+  "extensionDescription": { "message": "Ganti kaca Wikipedia menyang basa liya kanthi cepet." },
+  "languageInstruction": { "message": "Lebokna kode WP sing arep digunakake (bagéan sadurunge .wikipedia.org), pisahna nganggo koma. Conto: en kanggo Inggris, es kanggo Spanyol." },
+  "settingsDisplayMode": { "message": "Tampilna saben basa nganggo:" },
+  "displayNative": { "message": "Jeneng asli" },
+  "displayCode": { "message": "Kode WP (HURUF GEDE)" },
+  "displayCustom": { "message": "Label kustom" },
+  "customLabelNote": { "message": "Kowe bisa nambah label dewe kanggo saben basa (umpama: 🇮🇩, 中文, ENG). Yen kosong, bakal nganggo kode WP." },
+  "saveOptions": { "message": "Simpen Pilihan" }
+}

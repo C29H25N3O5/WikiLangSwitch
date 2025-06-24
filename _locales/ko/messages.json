@@ -1,0 +1,11 @@
+{
+  "extensionName": { "message": "위키백과 언어 전환기" },
+  "extensionDescription": { "message": "다양한 위키백과 언어 버전 간에 빠르게 전환합니다." },
+  "languageInstruction": { "message": "사용하려는 언어의 WP 코드(URL에서 .wikipedia.org 앞 부분)를 쉼표로 구분하여 입력하세요. 예: 영어는 en, 스페인어는 es." },
+  "settingsDisplayMode": { "message": "각 언어 표시 방법:" },
+  "displayNative": { "message": "원어 이름" },
+  "displayCode": { "message": "WP 코드 (대문자)" },
+  "displayCustom": { "message": "사용자 지정 라벨" },
+  "customLabelNote": { "message": "각 언어에 사용자 지정 라벨을 할당할 수 있습니다(예: 🇰🇷, 中文, ENG). 비워두면 WP 코드가 대신 사용됩니다." },
+  "saveOptions": { "message": "옵션 저장" }
+}

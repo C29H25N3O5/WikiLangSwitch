@@ -1,0 +1,11 @@
+{
+  "extensionName": { "message": "Εναλλαγή Γλωσσών Wikipedia" },
+  "extensionDescription": { "message": "Αλλάξτε γρήγορα μεταξύ διαφορετικών γλωσσών της Wikipedia." },
+  "languageInstruction": { "message": "Εισαγάγετε τους κωδικούς WP (το μέρος πριν από το .wikipedia.org) χωρισμένους με κόμμα. Παράδειγμα: en για Αγγλικά, es για Ισπανικά." },
+  "settingsDisplayMode": { "message": "Εμφάνιση κάθε γλώσσας ως:" },
+  "displayNative": { "message": "Αυτόχθονη ονομασία" },
+  "displayCode": { "message": "Κωδικός WP (ΚΕΦΑΛΑΙΑ)" },
+  "displayCustom": { "message": "Προσαρμοσμένη ετικέτα" },
+  "customLabelNote": { "message": "Μπορείτε να ορίσετε μια προσαρμοσμένη ετικέτα για κάθε γλώσσα (π.χ. 🇬🇷, 中文, ENG). Αν είναι κενό, θα χρησιμοποιηθεί ο WP κωδικός." },
+  "saveOptions": { "message": "Αποθήκευση επιλογών" }
+}

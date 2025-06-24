@@ -1,0 +1,11 @@
+{
+  "extensionName": { "message": "Wikipedia Language Switcher" },
+  "extensionDescription": { "message": "Quick waka go anoda Wikipedia language page sharp-sharp." },
+  "languageInstruction": { "message": "Put di WP code dem (di part wey dey before .wikipedia.org) wey you wan use, separate dem wit comma. Example: 'en' na English, 'es' na Spanish." },
+  "settingsDisplayMode": { "message": "How you wan make di language show:" },
+  "displayNative": { "message": "Di language name wey dem sabi" },
+  "displayCode": { "message": "WP code (CAPITAL LETTERS)" },
+  "displayCustom": { "message": "Ya own label" },
+  "customLabelNote": { "message": "Put ya own label for each language (e.g. 🇳🇬, 中文, ENG). If you no put anything, WP code go show." },
+  "saveOptions": { "message": "Save am" }
+}

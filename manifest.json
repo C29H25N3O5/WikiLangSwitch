@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "Wikipedia Language Switcher",
+  "name": "__MSG_extensionName__",
   "version": "0.1",
 
-  "description": "Quickly switch between different languages for an article in Wikipedia.",
+  "description": "__MSG_extensionDescription__",
 
   "icons": {
     "48": "icons/wls-48.png"
@@ -27,5 +27,7 @@
       "id": "{d6af7033-899e-4884-a242-6a660397bd98}",
       "strict_min_version": "58.0"
     }
-  }
+  },
+
+  "default_locale": "en"
 }
