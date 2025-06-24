@@ -5,11 +5,26 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-        <p>Shortcodes of selected languages, separated by commas:</p>
+		<p>Enter the WP codes (the part before <code>.wikipedia.org</code> in the URL) for the languages you want to use, separated by commas. For example: <code>en</code> for English, <code>es</code> for Spanish.</p>
         <form>
-            <textarea rows="1" cols="20" placeholder="en, nl, ..." id="selectedLanguages"></textarea>
+            <textarea rows="1" cols="20" placeholder="en, es, zh, &hellip;" id="selectedLanguages"></textarea>
+            <br><br>
+
+            <fieldset>
+                <legend><strong>Display each language as:</strong></legend>
+                <label><input type="radio" name="displayMode" value="native" checked> Native name</label><br>
+                <label><input type="radio" name="displayMode" value="code"> WP code (ALL CAPS)</label><br>
+                <label><input type="radio" name="displayMode" value="custom"> Custom label</label>
+            </fieldset> <br>
+
+            <div id="customLabelSection" style="display: none;">
+                <div id="customLabelInputs">
+                    <p><strong>Custom Labels:</strong> You can assign a custom label for each language (e.g., 🇺🇸, 中文, ENG). If left blank, the WP code will be used instead.</p>
+                    <!-- Dynamic inputs will be inserted here by options.js -->
+                </div>
+            </div>
             <br>
-            <input type="submit" value="Save">
+            <input type="submit" value="Save Options">
         </form>
 
         <script src="options.js"></script>

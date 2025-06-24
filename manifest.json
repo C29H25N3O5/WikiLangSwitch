@@ -1,18 +1,18 @@
 {
   "manifest_version": 2,
-  "name": "WikiQuickLang",
+  "name": "Wikipedia Language Switcher",
   "version": "0.1",
 
-  "description": "Shows flags for quick language switching on wikipedia",
+  "description": "Quickly switch between different languages for an article in Wikipedia.",
 
   "icons": {
-    "48": "icons/wql-48.png"
+    "48": "icons/wls-48.png"
   },
 
   "content_scripts": [
     {
       "matches": ["*://*.wikipedia.org/*"],
-      "js": ["src/quickLang.js"]
+      "js": ["src/LangSwitch.js"]
     }
   ],
 
@@ -24,8 +24,8 @@
 
   "browser_specific_settings": {
     "gecko": {
-      "id": "{c659c0c4-b938-11ee-82d8-a8a159321908}",
-      "strict_min_version": "57.0"
+      "id": "{d6af7033-899e-4884-a242-6a660397bd98}",
+      "strict_min_version": "58.0"
     }
   }
 }
