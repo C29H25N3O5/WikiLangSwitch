@@ -23,7 +23,11 @@ function saveOptions(e) {
 
 function generateCustomLabelInputs(languageCodes, savedLabels = {}) {
     const container = document.querySelector("#customLabelInputs");
-    container.innerHTML = `<p data-i18n="customLabelNote">${browser.i18n.getMessage("customLabelNote")}</p>`;
+    container.textContent = "";
+    const note = document.createElement("p");
+    note.dataset.i18n = "customLabelNote";
+    note.textContent = browser.i18n.getMessage("customLabelNote");
+    container.appendChild(note);
     languageCodes.forEach(code => {
         const row = document.createElement("div");
         row.style.display = "grid";
