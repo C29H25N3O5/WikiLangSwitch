@@ -3,7 +3,7 @@
   "extensionDescription": { "message": "快速切换不同维基百科语言版本。" },
   "languageInstruction": { "message": "输入您想要使用的WP代码（URL 中 .wikipedia.org 之前的部分），用半角逗号分隔。例如：en 表示英语，es 表示西班牙语。" },
   "settingsDisplayMode": { "message": "将每种语言显示为：" },
-  "displayNative": { "message": "本地名称" },
+  "displayNative": { "message": "语言名称" },
   "displayCode": { "message": "WP代码（全大写）" },
   "displayCustom": { "message": "自定义标签" },
   "customLabelNote": { "message": "您可以为每种语言分配自定义标签（例如：🇨🇳, 中文, ENG）。如果留空，将使用WP代码代替。" },

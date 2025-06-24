@@ -1,21 +1,34 @@
-# Wikipedia Language Switch
+# Wikipedia Language Switcher
 
-This Firefox add-on allows you to easily switch languages on the current Wikipedia article by inserting hyperlinks next to the language selection button. This feature is perfect for those who read Wikipedia articles in multiple languages.
+**Wikipedia Language Switcher** is a Firefox add-on that allows multilingual users to quickly switch between different language versions of the same Wikipedia article. It enhances the Wikipedia interface by adding a customizable row of language shortcuts next to the native language selector.
 
-To add a language, simply go to the Extension Preferences panel and enter the WP code of the corresponding Wikipedia(s), separated by commas.
+## Features
 
-\*Based on WikipediaQuickLanguages by @LeonGr.
+- 🔀 Quickly switch between language editions of any article when they are available
+- 🌐 Configure your preferred languages using WP language codes (e.g., `en`, `es`, `zh`)
+- 🏷️ Choose how languages are displayed:
+  - Full native language names
+  - WP language codes (in uppercase)
+  - Custom labels (e.g. emoji, abbreviations, etc.)
+- 🌍 Fully localized into 30+ of the world’s most widely spoken languages
+- 🛠️ Simple interface for managing and customizing language preferences
 
-## Examples
+## How to Use
 
-### Desktop
+1. Install the extension in Firefox.
+2. Go to the extension’s settings page.
+3. Enter your preferred languages using WP codes, separated by commas (e.g., `en, es, fr, zh`).
+4. Select your desired display mode: native names, WP codes, or custom labels.
+5. (Optional) If using custom labels, enter your preferred label for each language in the provided fields.
 
-![image](https://github.com/LeonGr/WikipediaQuickLanguages/blob/main/examples/desktop.png)
+## Example
 
-### Mobile
+![Example Screenshot](examples/example.png)
 
-![image](https://github.com/LeonGr/WikipediaQuickLanguages/blob/main/examples/mobile.png)
+## Credits
 
-### Settings
+This project is a heavily enhanced fork of [WikipediaQuickLanguages](https://github.com/LeonGr/WikipediaQuickLanguages) by [@LeonGr](https://github.com/LeonGr), originally licensed under the GNU GPL v3.0.
 
-![image](https://github.com/LeonGr/WikipediaQuickLanguages/blob/main/examples/settings.png)
+## License
+
+This extension is licensed under the [GNU General Public License v3.0](./LICENSE).
