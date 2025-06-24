@@ -1,7 +1,7 @@
 function saveOptions(e) {
     e.preventDefault();
     let selectedLanguagesString = document.querySelector("#selectedLanguages").value;
-    let selectedLanguages = selectedLanguagesString.replace(/\s/g, "").split(",");
+    let selectedLanguages = selectedLanguagesString.replace(/\s/g, "").split(",").filter(code => code.length);
 
     let displayMode = document.querySelector('input[name="displayMode"]:checked').value;
 
@@ -93,7 +93,7 @@ function handleDisplayModeChange() {
     if (displayMode === "custom") {
         customSection.style.display = "block";
         const selectedLanguagesString = document.querySelector("#selectedLanguages").value;
-        const selectedLanguages = selectedLanguagesString.replace(/\s/g, "").split(",");
+        const selectedLanguages = selectedLanguagesString.replace(/\s/g, "").split(",").filter(code => code.length);
         generateCustomLabelInputs(selectedLanguages);
     } else {
         customSection.style.display = "none";
@@ -104,14 +104,16 @@ function handleLanguageInputChange() {
     const displayMode = document.querySelector('input[name="displayMode"]:checked').value;
     if (displayMode === "custom") {
         const selectedLanguagesString = document.querySelector("#selectedLanguages").value;
-        const selectedLanguages = selectedLanguagesString.replace(/\s/g, "").split(",");
+        const selectedLanguages = selectedLanguagesString.replace(/\s/g, "").split(",").filter(code => code.length);
         generateCustomLabelInputs(selectedLanguages);
     }
 }
 
-document.addEventListener("DOMContentLoaded", restoreOptions);
-document.querySelector("form").addEventListener("submit", saveOptions);
-document.querySelectorAll('input[name="displayMode"]').forEach(input =>
-    input.addEventListener("change", handleDisplayModeChange)
-);
-document.querySelector("#selectedLanguages").addEventListener("input", handleLanguageInputChange);
+document.addEventListener("DOMContentLoaded", () => {
+    restoreOptions();
+    document.querySelector("form").addEventListener("submit", saveOptions);
+    document.querySelectorAll('input[name="displayMode"]').forEach(input =>
+        input.addEventListener("change", handleDisplayModeChange)
+    );
+    document.querySelector("#selectedLanguages").addEventListener("input", handleLanguageInputChange);
+});

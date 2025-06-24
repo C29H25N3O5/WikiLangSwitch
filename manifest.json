@@ -3,6 +3,9 @@
   "name": "__MSG_extensionName__",
   "version": "0.1",
 
+  "homepage_url": "https://github.com/C29H25N3O5/WikiLangSwitch",
+  "author": "C29H25N3O5",
+
   "description": "__MSG_extensionDescription__",
 
   "icons": {

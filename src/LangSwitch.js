@@ -4,7 +4,8 @@ const languageLinks = Array.from(document.querySelectorAll('.interlanguage-link'
 // Searches the language dropdown for the list item containing the select language
 function getLanguageUrl(dataCode) {
     let link = languageLinks.find(languageLink => {
-        return languageLink.firstChild.attributes["lang"].value.toLowerCase() == dataCode.toLowerCase();
+        if (!languageLink.firstChild) return false;
+        return languageLink.firstChild?.getAttribute("lang")?.toLowerCase() === dataCode.toLowerCase();
     });
 
     if (link) {
